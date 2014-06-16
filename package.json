@@ -1,16 +1,21 @@
 {
   "name": "flatlands",
   "version": "0.0.0",
-  "description": "Convert 3D GeoJSON features to 2D.",
+  "description": "Transforms a 3D GeoJSON feature geometry to 2D.",
   "main": "index.js",
   "scripts": {
     "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cspanring/flatlands.git"
   },
   "keywords": [
     "geojson"
   ],
   "author": "Christian Spanring",
   "license": "ISC",
+  "homepage": "https://github.com/cspanring/flatlands",
   "devDependencies": {
     "geojson-coords": "0.0.0",
     "tape": "^2.13.3"
